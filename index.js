@@ -25,6 +25,16 @@ class Pessoa{
 }
 
 //Qual é o nome da classe? Pessoa
-//Qual é o construtor? nome
-//Qual atributo está sendo criado? 
-//O que significa this? Esse, esse 'nome' significa 'nome'
+//Qual é o construtor? this.nome = nome;
+//Qual atributo está sendo criado? O atributo Pessoa, dizendo que os objetos a seguir pertencem a Pessoa
+//O que significa this? Isto, 'nome' igual a ISTO 'nome'
+
+//Encapsulamento 
+class Conta {
+    #saldo;
+        constructor(valor) {
+            this.#saldo = valor;
+        }
+};
+let valor1 = new Conta(1000);
+    console.log(valor1);
